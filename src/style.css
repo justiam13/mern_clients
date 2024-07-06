@@ -1,0 +1,19 @@
+.header{
+    background-color: #7fffd4;
+    text-align: right;
+}
+.header h3{
+    background-color: lavender;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
+    text-align: center;
+}
+.header ol{
+    font-size: 12px;
+    margin-left:auto;
+}
+.header li{
+    display:inline-block;
+    margin-left: 50px;
+}

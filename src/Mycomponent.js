@@ -1,0 +1,14 @@
+import { Mycontext } from "./Mycontext";
+import React, { useContext } from 'react'
+
+export default function Mycomponent() {
+    //consumer
+    const {text,setText}= useContext(Mycontext)
+  return (
+    <div>
+
+      <h1>{text}</h1>
+     < button onClick = {()=>setText("hello world")}> click</button>
+    </div>
+  )
+}
